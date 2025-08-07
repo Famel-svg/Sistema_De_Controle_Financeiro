@@ -86,29 +86,6 @@ Siga os passos abaixo para contribuir:
 
 ---
 
-## 📓 Padronização de Commits
-
-Este projeto segue o padrão de commits baseado no [@iuricode/padroes-de-commits](https://github.com/iuricode/padroes-de-commits).
-
-Exemplos de prefixos:
-
-| Tipo     | Descrição                           |
-|----------|-------------------------------------|
-| feat     | Nova feature                        |
-| fix      | Correção de bug                     |
-| docs     | Documentação                        |
-| style    | Formatação, sem alteração de código |
-| refactor | Refatoração de código               |
-| test     | Adicionando testes                  |
-| chore    | Manutenção                          |
-
-Exemplo de commit:
-```
-feat: adicionar filtro por categoria na listagem de despesas
-```
-
----
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT.  
