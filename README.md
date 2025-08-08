@@ -1,98 +1,88 @@
-# Sistema_De_Controle_Financeiro(JAVA)
-Aplicação web para gestão financeira pessoal com autenticação de usuários, CRUD de receitas/despesas e dashboard interativo. Tecnologias: Backend: Java Servlets + MVC  Frontend: JSP/Bootstrap + Chart.js 
+# Sistema de Controle Financeiro
 
-<h1 align="center">Sistema de Controle Financeiro 💸</h1>
-
-<p align="center">
+<div align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=jsp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=java&logoColor=white"/>
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
   <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white"/>
-</p>
-
-<p align="center">
-  Aplicação web para gestão financeira pessoal com autenticação de usuários, CRUD de receitas/despesas e dashboard interativo.
-</p>
-
-<p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-tecnologias">Tecnologias</a> •
- <a href="#-como-usar">Como usar</a> •
- <a href="#-contribuindo">Contribuindo</a> •
- <a href="#-padronização-de-commits">Padronização de Commits</a> •
- <a href="#-licença">Licença</a>
-</p>
+  <img src="https://img.shields.io/badge/Oracle%20SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
+</div>
 
 ---
 
-## ✨ Sobre o projeto
+## ✨ Sobre o Projeto
 
-O **Sistema de Controle Financeiro** nasceu da necessidade de organizar minhas finanças pessoais, então decidi unir o útil ao agradável e aplicar meus conhecimentos em Java e desenvolvimento web para criar essa solução.  
-Aqui, você pode cadastrar receitas, despesas, visualizar gráficos dinâmicos e acompanhar sua saúde financeira de forma simples e intuitiva.
+O **Sistema de Controle Financeiro** é uma aplicação web desenvolvida para ajudar no gerenciamento das finanças pessoais, permitindo o controle de receitas e despesas, além de fornecer um dashboard interativo para análise financeira.
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Tecnologias Utilizadas
+
+- **Backend:**  
+  - Java Servlets (MVC)
+  - Oracle SQL (Banco de Dados relacional)
+
+- **Frontend:**  
+  - JSP (JavaServer Pages)
+  - Bootstrap (Design responsivo e moderno)
+  - Chart.js (Gráficos dinâmicos)
+
+---
+
+## 🗝️ Funcionalidades
 
 - Cadastro e autenticação de usuários
 - CRUD de receitas e despesas
-- Dashboard com gráficos interativos (Chart.js)
-- Relatórios financeiros
-- Interface responsiva (JSP + Bootstrap)
-- Filtros por período, categoria, tipo de transação
-- Segurança com sessões
+- Dashboard com gráficos interativos sobre as movimentações financeiras
+- Interface intuitiva e responsiva
+- Integração com banco de dados Oracle SQL
 
 ---
 
-## 🛠 Tecnologias
+## 🎯 Objetivo
 
-- **Backend:** Java Servlets + MVC
-- **Frontend:** JSP, Bootstrap
-- **Gráficos:** Chart.js
-- **Banco de Dados:** (Preencha conforme utilizado: MySQL, PostgreSQL, etc.)
-- **Gerenciamento de dependências:** Maven/Gradle
+Facilitar o controle financeiro de pessoas físicas, proporcionando uma interface amigável e recursos gráficos para melhor visualização dos dados.
 
 ---
 
-## 🏁 Como usar
+## 📦 Como rodar o projeto
 
-1. Clone o repositório:
-   ```bash
+1. **Clone o repositório**
+   ```sh
    git clone https://github.com/Famel-svg/Sistema_De_Controle_Financeiro.git
    ```
+2. **Configure o banco Oracle SQL**  
+   Importe o script SQL disponível em `/database` para criar as tabelas necessárias.
 
-2. Importe o projeto em sua IDE Java favorita (Eclipse, IntelliJ, VS Code).
+3. **Configure o servidor Java (Ex: Apache Tomcat)**  
+   Coloque o projeto na pasta `webapps` do Tomcat.
 
-3. Configure o banco de dados:
-   - Crie um banco de dados e ajuste as credenciais em `/src/main/resources/db.properties` (ou arquivo equivalente).
+4. **Ajuste as configurações de conexão com o banco**  
+   No arquivo de configuração (ex: `DBConfig.java`), atualize os dados de acesso ao Oracle.
 
-4. Compile e execute o projeto em um servidor compatível com Java Servlets (ex: Apache Tomcat).
-
-5. Acesse `http://localhost:8080/Sistema_De_Controle_Financeiro` no navegador.
-
----
-
-## 🤝 Contribuindo
-
-Contribuições são super bem-vindas!  
-Siga os passos abaixo para contribuir:
-
-1. Fork este repositório
-2. Crie sua branch: `git checkout -b minha-feature`
-3. Faça suas alterações e commit: `git commit -m 'feat: minha nova feature'`
-4. Push na branch: `git push origin minha-feature`
-5. Abra um Pull Request
+5. **Execute o servidor e acesse no navegador:**  
+   ```
+   http://localhost:8080/Sistema_De_Controle_Financeiro
+   ```
 
 ---
 
-## 📄 Licença
+## 💡 Screenshots
 
-Este projeto está sob a licença MIT.  
-Veja em [LICENSE](./LICENSE) para mais detalhes.
+<div align="center">
+  <!-- Adicione aqui prints do dashboard, tela de login, etc -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="60"/>
+</div>
 
 ---
 
-<p align="center">
-  Feito com 💙 por <a href="https://github.com/Famel-svg">Famel-svg</a>
-</p>
+## 📝 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+<div align="center">
+  <strong>Desenvolvido por Famel-svg 🚀</strong>
+</div>
